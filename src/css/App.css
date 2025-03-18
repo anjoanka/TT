@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container{
+  width: 30vw;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    width: 100%;
+  }
+}
